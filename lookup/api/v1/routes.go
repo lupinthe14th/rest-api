@@ -4,6 +4,7 @@ import (
 	"github.com/ant0ine/go-json-rest/rest"
 )
 
+// NewRoutes overview.
 func NewRoutes() (*rest.Api, error) {
 	api := rest.NewApi()
 	api.Use(rest.DefaultDevStack...)
